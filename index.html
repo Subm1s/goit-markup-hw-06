@@ -353,6 +353,39 @@
                     </svg>
                 </button>
             </div>
+            <form action="#" class="modal-form">
+                <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
+                <label class="">
+                    Имя
+                    <span class="">
+                        <input type="text" name="user-name" class=""
+                            title="Не должно быть цифр и символов" required>
+                    </span>
+                </label>
+                <label class="modal-form-field">
+                    Телефон
+                    <span class="modal-form-input-wrapper">
+                        <input type="tel" name="user-phone" class="modal-form-input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                            title="096-111-11-11" required>
+                    </span>
+                </label>
+                <label class="modal-form-field">
+                    Почта
+                    <span class="modal-form-input-wrapper">
+                        <input type="email" name="user-phone" class="modal-form-input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                            title="096-111-11-11" required>
+                    </span>
+                </label>
+                <label class="modal-form-field">
+                    Комментарий
+                    <textarea name="user-message" class="modal-form-message" placeholder="Введите текст"></textarea>
+                </label>
+                <input type="checkbox" name="accept-policy" id="accept-policy" class="modal-form-checkbox visually-hidden">
+                <label for="accept-policy" class="modal-form-checkbox-label">Соглашаюсь с рассылкой и принимаю&nbsp;<a
+                        class="modal-form-checkbox-link" href="">Условия
+                        договора</a></label>
+                <button type="submit" class="modal-form-btn">Отправить</button>
+            </form>
         </div>
     </div>
     <!--======================== FOOTER ========================-->
@@ -406,9 +439,20 @@
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
-    
                     </li>
                 </ul>
+            </div>
+            <div class="form-subscribe">
+                <p class="footer-form-title">подпишитесь на рассылку</p>
+                <form class="form-use">
+                    <input type="email" name="user-mail" class="footer-form" placeholder="E-mail">
+                    <button type="submit" class="button-form">
+                        <span class="form-button-text">подпишитесь</span>
+                        <svg class="icon-subscribe" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
             </div>
         </div>
     </footer>
