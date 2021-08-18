@@ -840,6 +840,7 @@ img {
   display: flex;
   justify-content: center;
   text-align: center;
+  color: var(--white-color-text);
 }
 .button-form {
   margin-left: 12px;
@@ -887,6 +888,8 @@ img {
   width: 358px;
   background-color: var(--alternative-bgc);
   padding-left: 16px;
+  color: var(--white-color-text);
+  letter-spacing: 0.06em;
 }
 .icon-subscribe {
   margin-left: 10px;
