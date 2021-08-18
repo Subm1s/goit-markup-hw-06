@@ -195,7 +195,7 @@ img {
   margin-right: auto;
   margin-left: auto;
 
-  transition-property: background-color;
+  transition-property: background-colr;
   transition-duration: var(--duration-time);
   transition-timing-function: var(--timing-function);
 }
